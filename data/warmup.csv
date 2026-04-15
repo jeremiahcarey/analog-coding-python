@@ -19,7 +19,7 @@ print(items)","[1, 99, 3]"
 
 result = double(4)
 print(result)",8
-5,The Silent Function,functions,"def greet(name):
+5,The Greeting,functions,"def greet(name):
     message = ""Hello, "" + name
 
 result = greet(""Maya"")

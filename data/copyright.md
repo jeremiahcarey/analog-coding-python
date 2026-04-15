@@ -8,7 +8,5 @@ No part of this publication may be reproduced, distributed, or transmitted in an
 
 Published independently.
 
-ISBN: [to be assigned by KDP]
-
 First edition, 2026
 
