@@ -82,9 +82,9 @@ Interview Prep Edition, Volume 2, Find the Bug Edition, 10-Minute Coding Workout
 
 ## Book Structure
 
-Each book ≈ 120–140 pages. Same structure for JS and Python editions.
+Each book ≈ 90–100 pages. Same structure for JS and Python editions.
 
-Total exercises ≈ 100.
+Total exercises ≈ 75.
 
 ---
 
@@ -136,7 +136,7 @@ Each problem shows: a code snippet + a small write-in box for predicted output.
 
 ---
 
-### Part 2 — Write the Code (30 problems) 🔲 *todo*
+### Part 2 — Write the Code (25 problems) 🔲 *todo*
 
 Core section. Reader writes code by hand.
 
@@ -152,7 +152,7 @@ Core section. Reader writes code by hand.
 **Layout:** 1 problem per page with graph paper coding area.
 Problems with long prompts automatically generate a second graph paper page.
 
-**Estimated pages:** ~38 (30 problems + ~6 auto-added extra graph pages + 1 title page)
+**Estimated pages:** ~31 (25 problems + ~5 auto-added extra graph pages + 1 title page)
 
 ---
 
@@ -168,17 +168,17 @@ Reader simulates execution step by step.
 
 ---
 
-### Part 4 — Find the Bug (10 problems) 🔲 *todo*
+### Part 4 — Find the Bug (15 problems) 🔲 *todo*
 
 Reader identifies and explains the bug in a short code snippet, then rewrites the fix.
 
 **Types:** Off-by-one, missing return, wrong key, accidental mutation, assignment vs. comparison, missing accumulation, missing branch, wrong indentation, mutable default argument, missing return in conditional.
 
-**Layout:** 1 per page — buggy code + write-in space for explanation and fix. ~11 pages.
+**Layout:** 1 per page — buggy code + write-in space for explanation and fix. ~16 pages.
 
 ---
 
-### Part 5 — Challenge Problems (8 problems) 🔲 *todo*
+### Part 5 — Challenge Problems (5 problems) 🔲 *todo*
 
 Harder but still realistic. Write-the-code format with graph paper. Still follows the "no algorithms" rule.
 
@@ -186,7 +186,7 @@ Harder but still realistic. Write-the-code format with graph paper. Still follow
 
 **Layout:** 1 problem per page with graph paper coding area. Same template as Part 2.
 
-**Estimated pages:** ~10 (1 title page + ~8 problems + ~1 auto-added extra graph page)
+**Estimated pages:** ~6 (1 title page + ~5 problems)
 
 
 ---
@@ -205,12 +205,12 @@ Order in back matter mirrors section order: Warmup answers → Code Answers → 
 |---|---|
 | Front matter | 5 |
 | Part 1 — Warmups | 5 |
-| Part 2 — Write the Code | 38 |
+| Part 2 — Write the Code | 31 |
 | Part 3 — Trace the Program | 5 |
-| Part 4 — Find the Bug | 11 |
-| Part 5 — Challenge Problems | 15 |
-| Solutions | 30 |
-| **Total** | **~109** |
+| Part 4 — Find the Bug | 16 |
+| Part 5 — Challenge Problems | 6 |
+| Solutions | 25 |
+| **Total** | **~93** |
 
 Fits within KDP standard page count range.
 

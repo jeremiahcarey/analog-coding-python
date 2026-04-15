@@ -1,1 +1,86 @@
 id,title,concept,code,output
+1,Reassignment,variables,"x = 5
+x = x + 2
+x = x * 3
+
+print(x)",21
+2,Loop Boundary,loops,"total = 0
+
+for i in range(4):
+    total += i
+
+print(total)",6
+3,List Mutation,lists,"items = [1, 2, 3]
+items[1] = 99
+
+print(items)","[1, 99, 3]"
+4,Function Return,functions,"def double(n):
+    return n * 2
+
+result = double(4)
+print(result)",8
+5,The Silent Function,functions,"def greet(name):
+    message = ""Hello, "" + name
+
+result = greet(""Maya"")
+print(result)",None
+6,Two Variables,variables,"a = 3
+b = a
+a = 8
+
+print(a)
+print(b)","8
+3"
+7,Dict Mutation,dictionaries,"user = {""name"": ""Ava"", ""age"": 30}
+user[""age""] = user[""age""] + 1
+
+print(user[""age""])",31
+8,Shared List,references,"a = [1, 2]
+b = a
+b.append(3)
+
+print(a)
+print(b)","[1, 2, 3]
+[1, 2, 3]"
+9,Going Independent,references,"a = [1, 2]
+b = a[:]
+b.append(3)
+
+print(a)
+print(b)","[1, 2]
+[1, 2, 3]"
+10,Truthiness,truthiness,"print(bool([]))
+print(bool([0]))
+print(bool(""""))
+print(bool(""hi""))","False
+True
+False
+True"
+11,Equality vs Identity,equality,"a = [1, 2]
+b = [1, 2]
+c = a
+
+print(a == b)
+print(a is b)
+print(a is c)","True
+False
+True"
+12,Division,operators,"print(5 / 2)
+print(5 // 2)","2.5
+2"
+13,append + len,lists,"names = [""Ana"", ""Ben""]
+names.append(""Chris"")
+
+print(len(names))
+print(names)","3
+['Ana', 'Ben', 'Chris']"
+14,List Comprehension,comprehensions,"nums = [1, 2, 3, 4]
+doubled = [n * 2 for n in nums]
+
+print(doubled)","[2, 4, 6, 8]"
+15,Filtering with a Comprehension,comprehensions,"nums = [1, 2, 3, 4, 5, 6]
+evens = [n for n in nums if n % 2 == 0]
+
+print(len(evens))
+print(evens)","3
+[2, 4, 6]"
